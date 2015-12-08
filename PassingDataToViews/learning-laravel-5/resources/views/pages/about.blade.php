@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h1>About Me { !!$name!! }</h1>
+<h1>About Me {{$first}} {{$last}}</h1>
 
 <p>Text de prova</p>
 
