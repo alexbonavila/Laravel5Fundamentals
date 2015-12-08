@@ -9,9 +9,14 @@ class PagesController extends Controller{
 
         $first = 'Fox';
 
-        $last='Mulder';
-
-        return view('pages.about',compact('first','last'));
+        return view('pages.about',compact('first'));
     }
+
+
+    public function contact()
+    {
+        return view('pages.contact');
+    }
+
 
 }

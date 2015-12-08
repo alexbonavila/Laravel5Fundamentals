@@ -1,15 +1,7 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
+@extends('app)
 
-    <title>Document</title>
-
-</head>
-<body>
+@section('content')
 
 <h1>"Contact me!"</h1>
 
-</body>
-
-</html>
+@stop
