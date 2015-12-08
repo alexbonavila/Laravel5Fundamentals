@@ -7,15 +7,13 @@ class PagesController extends Controller{
     public function about()
     {
 
+        $data= [];
 
+        $data['first'] = 'Douglas';
 
-        return view('pages.about')->with([
+        $data['last'] = 'Quaid';
 
-            'first'=> 'Jeffrey',
-
-            'last'=> 'Way'
-
-        ]);
+        return view('pages.about',$data);
     }
 
 }
